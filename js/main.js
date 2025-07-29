@@ -279,7 +279,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         
-        const phoneNumber = '918051568658'; // Replace with your WhatsApp number
+        const phoneNumber = '918447830914'; // Replace with your WhatsApp number
         const message = cart.generateWhatsAppMessage();
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
         
