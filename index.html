@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Food Corner | Cloud Kitchen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loader">
+        <div class="loader-circle"></div>
+    </div>
+    
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Perfect Food Corner</h1>
+                <p>Cloud Kitchen</p>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#delivery">Delivery</a></li>
+                    <li class="nav-cart">
+                        <a href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-count">0</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="call-btn">
+                    <a href="tel:8447830914"><i class="fas fa-phone"></i> Call Now</a>
+                </div>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Craving Something <span>TASTY?</span></h2>
+                <p>Call Us, We'll <span>DELIVER!</span></p>
+                <div class="hero-btns">
+                    <a href="tel:8447830914" class="btn-primary">8447-830-914</a>
+                    <a href="tel:9835943494" class="btn-secondary">9835-943-494</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="food-image"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="delivery-info" id="delivery">
+        <div class="container">
+            <h2 class="section-title">Delivery Information</h2>
+            <div class="info-cards">
+                <div class="info-card">
+                    <i class="fas fa-shopping-bag"></i>
+                    <h3>Minimum Order</h3>
+                    <p>Home Delivery available only for orders above ₹99</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-truck"></i>
+                    <h3>Delivery Charges</h3>
+                    <p>₹20 for orders within 3 kms. Extra ₹10 per km.</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-gift"></i>
+                    <h3>Free Delivery</h3>
+                    <p>FREE Home Delivery for Orders above ₹249</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+<section class="menu-section" id="menu">
+    <div class="container">
+        <h2 class="section-title">Our Menu</h2>
+        <div class="menu-tabs">
+            <button class="tab-btn active" data-category="starters">Starters</button>
+            <button class="tab-btn" data-category="chowmein">Chowmein</button>
+            <button class="tab-btn" data-category="chilly">Chilly</button>
+            <button class="tab-btn" data-category="rice">Rice</button>
+            <button class="tab-btn" data-category="munchurian">Munchurian</button>
+            <button class="tab-btn" data-category="pasta">Pasta</button>
+            <button class="tab-btn" data-category="main-course">Main Course</button>
+            <button class="tab-btn" data-category="mocktails">Mocktails</button>
+        </div>
+
+        <div class="menu-items">
+            <!-- Starters -->
+            <div class="menu-category active" id="starters">
+                <div class="menu-item">
+                    <h3>Chicken Dry Fry (250 gms)</h3>
+                    <span class="price">₹160.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Pancer Dry Fry (150 gms)</h3>
+                    <span class="price">₹180.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Fish Fry (4 pcs)</h3>
+                    <span class="price">₹150.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Pot-Liver Dry Fry (4 pairs)</h3>
+                    <span class="price">₹150.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Desi Bhuna Kassa Mutton (250 gms)</h3>
+                    <span class="price">₹350.00</span>
+                </div>
+            </div>
+
+            <!-- Chowmein -->
+            <div class="menu-category" id="chowmein">
+                <div class="menu-item">
+                    <h3>Veg Chowmein (H/F)</h3>
+                    <span class="price">₹40 / ₹70</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Egg Chowmein (H/F)</h3>
+                    <span class="price">₹55 / ₹100</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Pancer Chowmein (H/F)</h3>
+                    <span class="price">₹80 / ₹50</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Chicken Chowmein (H/F)</h3>
+                    <span class="price">₹70 / ₹130</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Chicken Egg Chowmein (H/F)</h3>
+                    <span class="price">₹85 / ₹150</span>
+                </div>
+            </div>
+
+            <!-- Chilly -->
+            <div class="menu-category" id="chilly">
+                <div class="menu-item">
+                    <h3>Veg Chilly (H/F)</h3>
+                    <span class="price">₹40 / ₹70</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Pancer Chilly (H/F)</h3>
+                    <span class="price">₹90 / ₹170</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Chicken Chilly (H/F)</h3>
+                    <span class="price">₹80 / ₹150</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Chicken Chilly - Boneless (H/F)</h3>
+                    <span class="price">₹90 / ₹170</span>
+                </div>
+            </div>
+
+            <!-- Rice -->
+            <div class="menu-category" id="rice">
+                <div class="menu-item">
+                    <h3>Veg Fried Rice (H/F)</h3>
+                    <span class="price">₹45 / ₹80</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Egg Fried Rice (H/F)</h3>
+                    <span class="price">₹60 / ₹110</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Pancer Fried Rice (H/F)</h3>
+                    <span class="price">₹85 / ₹160</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Chicken Fried Rice (H/F)</h3>
+                    <span class="price">₹75 / ₹130</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Chicken Egg Fried Rice (H/F)</h3>
+                    <span class="price">₹90 / ₹150</span>
+                </div>
+            </div>
+
+            <!-- Munchurian -->
+            <div class="menu-category" id="munchurian">
+                <div class="menu-item">
+                    <h3>Veg Munchurian (H/F)</h3>
+                    <span class="price">₹45 / ₹80</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Pancer Munchurian (H/F)</h3>
+                    <span class="price">₹95 / ₹180</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Chicken Munchurian (H/F)</h3>
+                    <span class="price">₹85 / ₹160</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Chicken Munchurian - Boneless (H/F)</h3>
+                    <span class="price">₹95 / ₹180</span>
+                </div>
+            </div>
+
+            <!-- Pasta -->
+            <div class="menu-category" id="pasta">
+                <div class="menu-item">
+                    <h3>Perfect Spl. White Sauce Pasta</h3>
+                    <span class="price">₹100.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Perfect Spl. White Sauce Chicken Pasta</h3>
+                    <span class="price">₹100.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Perfect Spl. White Sauce Pancer Pasta</h3>
+                    <span class="price">₹150.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Add Extra Cheese to your Pasta</h3>
+                    <span class="price">₹20.00</span>
+                </div>
+            </div>
+
+            <!-- Main Course -->
+            <div class="menu-category" id="main-course">
+                <div class="menu-item">
+                    <h3>Roasted Masala Papad</h3>
+                    <span class="price">₹7.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Fried Masala Papad</h3>
+                    <span class="price">₹10.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Green Salad</h3>
+                    <span class="price">₹20.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Plain Tawa Roti</h3>
+                    <span class="price">₹8.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Butter / Chee Tawa Roti</h3>
+                    <span class="price">₹10 / ₹12</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Plain Basmati Steamed Rice</h3>
+                    <span class="price">₹40.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Basmati Jeera-Kaju Chee Fried Rice</h3>
+                    <span class="price">₹80.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Perfect Special Dal Tadka</h3>
+                    <span class="price">₹50.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Perfect Special Egg (2pcs/4pcs)</h3>
+                    <span class="price">₹50 / ₹90</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Perfect Special Pancer (80gm/150gm)</h3>
+                    <span class="price">₹120 / ₹220</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Perfect Special Chicken (2pcs/4pcs)</h3>
+                    <span class="price">₹110 / ₹200</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Perfect Special Fish (2pcs/4pcs)</h3>
+                    <span class="price">₹90 / ₹170</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Perfect Special Mutton (150gm/250gm)</h3>
+                    <span class="price">₹210 / ₹350</span>
+                </div>
+            </div>
+
+            <!-- Mocktails -->
+            <div class="menu-category" id="mocktails">
+                <div class="menu-item">
+                    <h3>Virgin Mojito</h3>
+                    <span class="price">₹60.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Blue Lagoon</h3>
+                    <span class="price">₹60.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Summer Splash</h3>
+                    <span class="price">₹60.00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Perfect Food Corner</h3>
+                    <p>Cloud Kitchen</p>
+                    <p>Open from 11am to 12am</p>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-phone"></i> 8447-830-914</p>
+                    <p><i class="fas fa-phone"></i> 9835-943-494</p>
+                </div>
+                <div class="footer-hours">
+                    <h3>Opening Hours</h3>
+                    <p>Monday - Sunday</p>
+                    <p>11:00 AM - 12:00 AM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Perfect Food Corner. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Floating Cart Button (Bottom Right) -->
+    <div class="floating-cart-btn">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-count">0</span>
+    </div>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Order</h3>
+            <button class="close-cart">&times;</button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be added here dynamically -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span class="total-price">₹0.00</span>
+            </div>
+            <button class="btn-primary checkout-btn">
+                <i class="fab fa-whatsapp"></i> Order via WhatsApp
+            </button>
+            <button class="btn-secondary clear-cart-btn">
+                Clear Order
+            </button>
+        </div>
+    </div>
+
+    <!-- Plate Selection Modal -->
+    <div class="plate-modal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <h3>Select Plate Size</h3>
+            <div class="plate-options">
+                <button class="plate-option" data-size="half">Half Plate</button>
+                <button class="plate-option" data-size="full">Full Plate</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
